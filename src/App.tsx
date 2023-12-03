@@ -1,5 +1,4 @@
 import { BrowserRouter } from 'react-router-dom'
-// @ts-expect-error error
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from './components'
 import { ReactElement } from 'react'
 
