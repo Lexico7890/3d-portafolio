@@ -198,7 +198,7 @@ const projects = [
       }
     ],
     image: scalpro,
-    sourceCodeLink: 'https://github.com/'
+    sourceCodeLink: 'https://github.com/Lexico7890/scalpro_tailwind'
   },
   {
     name: 'FootyBall',
@@ -223,7 +223,7 @@ const projects = [
       }
     ],
     image: footyball,
-    sourceCodeLink: 'https://github.com/'
+    sourceCodeLink: 'https://github.com/Lexico7890/neo-team'
   }
 ]
 
