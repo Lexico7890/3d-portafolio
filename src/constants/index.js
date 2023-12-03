@@ -15,7 +15,6 @@ import {
   misfacturas,
   konecta,
   footyball,
-  jobit,
   threejs,
   nextjs,
   sqlserver,
