@@ -20,6 +20,10 @@ import redux from './tech/redux.png'
 import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
+import nextjs from './tech/next-js-logo.png'
+import netcore from './tech/netcore.png'
+import sqlserver from './tech/sqlserver.png'
+import zustand from './tech/zustand.png'
 
 import msd from './company/MSD.png'
 import misfacturas from './company/misfacturas.png'
@@ -28,6 +32,8 @@ import konecta from './company/konecta.png'
 import carrent from './carrent.png'
 import jobit from './jobit.png'
 import tripguide from './tripguide.png'
+import scalpro from './scalpro.png'
+import footyball from './footyball.png'
 
 export {
   ocdev,
@@ -56,5 +62,11 @@ export {
   misfacturas,
   carrent,
   jobit,
-  tripguide
+  tripguide,
+  nextjs,
+  netcore,
+  sqlserver,
+  zustand,
+  scalpro,
+  footyball
 }

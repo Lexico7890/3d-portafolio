@@ -1,8 +1,8 @@
 import { BrowserRouter } from 'react-router-dom'
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components'
-import React from 'react'
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from './components'
+import { ReactElement } from 'react'
 
-const App = (): React.ReactElement => {
+const App = (): ReactElement => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
@@ -14,7 +14,6 @@ const App = (): React.ReactElement => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />

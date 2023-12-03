@@ -8,20 +8,19 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  netcore,
   tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
   msd,
   misfacturas,
   konecta,
-  carrent,
+  footyball,
   jobit,
-  tripguide,
-  threejs
+  threejs,
+  nextjs,
+  sqlserver,
+  zustand,
+  scalpro
 } from '../assets'
 
 export const navLinks = [
@@ -80,20 +79,20 @@ const technologies = [
     icon: reactjs
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux
+    name: 'NextJs',
+    icon: nextjs
   },
   {
     name: 'Tailwind CSS',
     icon: tailwind
   },
   {
-    name: 'Node JS',
-    icon: nodejs
+    name: 'netcore',
+    icon: netcore
   },
   {
-    name: 'MongoDB',
-    icon: mongodb
+    name: 'SqlServer',
+    icon: sqlserver
   },
   {
     name: 'Three JS',
@@ -104,12 +103,8 @@ const technologies = [
     icon: git
   },
   {
-    name: 'figma',
-    icon: figma
-  },
-  {
-    name: 'docker',
-    icon: docker
+    name: 'zustand',
+    icon: zustand
   }
 ]
 
@@ -121,10 +116,9 @@ const experiences = [
     iconBg: '#007c71',
     date: 'March 2020 - April 2021',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Creation of applications in Power apps according to the different requests of the company departments.',
+      'Efficient fulfillment of assigned tasks.',
+      'Collaboration with the different departments of the company.'
     ]
   },
   {
@@ -134,10 +128,8 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'Jan 2021 - Feb 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Management of support tickets, monitoring and resolution of technical incidents.',
+      'Carrying out scripts to obtain information from databases to provide solutions to different customer requests.'
     ]
   },
   {
@@ -145,12 +137,13 @@ const experiences = [
     company_name: 'Konecta',
     icon: konecta,
     iconBg: '#00254f',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'Jan 2022 - at the moment',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Development of new features and bug fixes with .NetCore'
     ]
   }
 ]
@@ -184,66 +177,53 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Scalpro',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web application (in development) created for a hair transplant clinic, which allows you to enter a photo and, through artificial intelligence, transform it by adding hair in the selected area.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient'
       },
       {
-        name: 'mongodb',
+        name: 'nextJs',
         color: 'green-text-gradient'
       },
       {
         name: 'tailwind',
         color: 'pink-text-gradient'
+      },
+      {
+        name: 'express',
+        color: 'blue-text-gradient'
       }
     ],
-    image: carrent,
+    image: scalpro,
     sourceCodeLink: 'https://github.com/'
   },
   {
-    name: 'Job IT',
+    name: 'FootyBall',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Web application (in development) created to manage local sports leagues, which allows automating various processes and thus showing updated data to users, works with a Serverless service.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient'
       },
       {
-        name: 'restapi',
+        name: 'nextJs',
         color: 'green-text-gradient'
       },
       {
-        name: 'scss',
+        name: 'tailwind',
         color: 'pink-text-gradient'
-      }
-    ],
-    image: jobit,
-    sourceCodeLink: 'https://github.com/'
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
+      },
       {
-        name: 'nextjs',
+        name: 'zustand',
         color: 'blue-text-gradient'
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient'
       }
     ],
-    image: tripguide,
+    image: footyball,
     sourceCodeLink: 'https://github.com/'
   }
 ]
